@@ -4,6 +4,19 @@
   
     
     <entry>
+      <title>hexo安装配置</title>
+      <link href="/2019/10/25/hexo%E5%AE%89%E8%A3%85%E9%85%8D%E7%BD%AE/"/>
+      <url>/2019/10/25/hexo%E5%AE%89%E8%A3%85%E9%85%8D%E7%BD%AE/</url>
+      
+        <content type="html"><![CDATA[<p>一.下载git CMD<br>   node.js<br>   打开本地cmd 安装hexo框架工具<br>   npm install hexo-cli -g<br>   安装完毕后<br>   打开命令行工具输入ssh-keygen -t rsa -C<br>   生成ssh密钥公钥<br>   注册github账号<br>   打开git 创建仓库<br>   name （自己名命后期网站使用）.github.io<br>   点击create repository 选择setting Deploy keys adddeploy<br>   将生成的密钥（C:\Users\Yls.ssh）复制到key框里边<br>   测试是否连接成功<br>   ssh <a href="mailto:-Tgit@github.com" target="_blank" rel="noopener">-Tgit@github.com</a><br>   打开__config.yml<br>   修改repo *注意：后边都要有一格空格<br>   <a href="mailto:git@github.com" target="_blank" rel="noopener">git@github.com</a>:自己注册的用户名/自己注册的用户名.github.io.git<br>   打开终端输入hexo d （传输）<br>   输入hexo s 出来一网址复制打开就可以看到自己的博客<br>   发布自己的博客可以在（C:\Users\Yls\Desktop\boke\blog\public）添加内容文件等</p><pre><code> hexo clean  //清理缓存hexo g    //重新生成博客代码hexo d   //部署到本地hexo new &quot;我个人博客的第一篇博客，哈哈哈...&quot;hexo g   //生成网页hexo d  //部署到远端(github)</code></pre>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Hello World</title>
       <link href="/2019/10/25/hello-world/"/>
       <url>/2019/10/25/hello-world/</url>
