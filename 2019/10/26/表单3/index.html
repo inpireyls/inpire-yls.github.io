@@ -3,16 +3,16 @@
 <head>
   <meta charset="utf-8">
   
-  <title>Hello World | Hexo</title>
+  <title>表单3 | Hexo</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick">
+  <meta name="description" content="表单3                                       登录                              提交按钮和上传文件配合使用             获取时间             网页地址             电话号                             &amp;lt;input type=&amp;quot;image&amp;">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Hello World">
-<meta property="og:url" content="http:&#x2F;&#x2F;yoursite.com&#x2F;2019&#x2F;10&#x2F;25&#x2F;hello-world&#x2F;index.html">
+<meta property="og:title" content="表单3">
+<meta property="og:url" content="http:&#x2F;&#x2F;yoursite.com&#x2F;2019&#x2F;10&#x2F;26&#x2F;%E8%A1%A8%E5%8D%953&#x2F;index.html">
 <meta property="og:site_name" content="Hexo">
-<meta property="og:description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick">
+<meta property="og:description" content="表单3                                       登录                              提交按钮和上传文件配合使用             获取时间             网页地址             电话号                             &amp;lt;input type=&amp;quot;image&amp;">
 <meta property="og:locale" content="en">
-<meta property="og:updated_time" content="2019-10-25T06:29:28.899Z">
+<meta property="og:updated_time" content="2019-10-26T05:44:23.855Z">
 <meta name="twitter:card" content="summary">
   
     <link rel="alternate" href="/atom.xml" title="Hexo" type="application/atom+xml">
@@ -66,12 +66,12 @@
   </div>
 </div>
 
-        <section id="main"><article id="post-hello-world" class="wow slideInRight article article-type-post" itemscope itemprop="blogPost">
+        <section id="main"><article id="post-表单3" class="wow slideInRight article article-type-post" itemscope itemprop="blogPost">
   <div class="article-meta">
-    <a href="/2019/10/25/hello-world/" class="article-date">
-  <time class="post-time" datetime="2019-10-25T06:29:28.899Z" itemprop="datePublished">
+    <a href="/2019/10/26/%E8%A1%A8%E5%8D%953/" class="article-date">
+  <time class="post-time" datetime="2019-10-26T09:08:39.571Z" itemprop="datePublished">
     <span class="post-month">10月</span><br/>
-    <span class="post-day">25</span>
+    <span class="post-day">26</span>
   </time>
 </a>
    
@@ -83,7 +83,7 @@
         
   
     <h1 class="article-title" itemprop="name">
-      Hello World
+      表单3
     </h1>
   
 
@@ -98,24 +98,42 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
+        <!DOCTYPE html>
+<html>
+<head>
+    <title>表单3</title>
+</head>
+<body>
+    <form>
+               <input type="button"value="登录">
+               <button>登录</button> <!-- 功能 button >input button（通常和js绑定事件一起用） >submit -->
+            <!--      inputsubmit用于提交表单时，必须声明form里面的method属性，最好添加action属性
+               （使用） -->
+               <input type="submit" value="登录">提交按钮和上传文件配合使用
+            <input type="date">获取时间
+            <input type="url">网页地址
+            <input type="tel" >电话号
+            <input type="file"multipe> <!-- ；上传文件 multipe设置上传多个文件 
+           Rrquired必须上传一个文件-->
+            <!-- 当使用input元素提交表单时要设置
+            <form enctype="multipart/form-data"></form> -->
 
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+<pre><code>&lt;input type=&quot;image&quot; src=&quot;1.png&quot; width=&quot;500px&quot;&gt;&lt;!-- 插入按钮图片设置大小不需设置height，同样大小 --&gt;
+&lt;input type=&quot;hidden&quot;value=&quot;123&quot;&gt;&lt;!-- 隐藏文本登录密码之后调用php可以配合使用 --&gt;
+   &lt;textarea cols=&quot;20&quot; rows=&quot;10&quot;&gt;&lt;/textarea&gt;
+   &lt;!-- 可以拉大的文本框 --&gt;
+   &lt;input type=&quot;text&quot; placeholder=&quot;阔宽的文本框&quot; size=&quot;30&quot;&gt;
+   &lt;input type=&quot;range&quot; max=&quot;100&quot; min=&quot;-100&quot; step=&quot;50&quot; value=&quot;20&quot;&gt;
+   &lt;!-- max： 最大值   min：最小值 step：滑动间隔值 value ：初始值 range可以滑动用到出生年月日等--&gt;
+   &lt;input type=&quot;number&quot; max=&quot;100&quot; min=&quot;-100&quot;value=&quot;2&quot;&gt;</code></pre><!--                         手动输入值也可以value为初始值
+ -->    </form>
 
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>
-
+</body>
+</html>
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2019/10/25/hello-world/" data-id="ck27cffsp0001ekvgddaldicg" class="article-share-link">Share</a>
+      <a data-url="http://yoursite.com/2019/10/26/%E8%A1%A8%E5%8D%953/" data-id="ck27cfftw0009ekvg9bym3at6" class="article-share-link">Share</a>
       
       
     </footer>
@@ -124,15 +142,20 @@
     
 <nav id="article-nav">
   
-    <a href="/2019/10/25/hexo%E5%AE%89%E8%A3%85%E9%85%8D%E7%BD%AE/" id="article-nav-newer" class="article-nav-link-wrap">
+    <a href="/2019/10/26/%E7%82%B9%E5%87%BB%E4%BA%8B%E4%BB%B6/" id="article-nav-newer" class="article-nav-link-wrap">
       <strong class="article-nav-caption">Newer</strong>
       <div class="article-nav-title">
         
-          hexo安装配置
+          点击事件
         
       </div>
     </a>
   
+  
+    <a href="/2019/10/26/%E5%B5%8C%E5%85%A5%E8%A7%86%E9%A2%91/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Older</strong>
+      <div class="article-nav-title">嵌入视频</div>
+    </a>
   
 </nav>
 
