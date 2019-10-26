@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-10-25T13:48:04.002Z</updated>
+  <updated>2019-10-26T08:08:47.972Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,37 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>点击图片去另一个网站</title>
+    <link href="http://yoursite.com/2019/10/26/%E7%82%B9%E5%87%BB%E5%9B%BE%E7%89%87%E5%8E%BB%E5%8F%A6%E4%B8%80%E4%B8%AA%E7%BD%91%E7%AB%99/"/>
+    <id>http://yoursite.com/2019/10/26/点击图片去另一个网站/</id>
+    <published>2019-10-26T09:03:27.735Z</published>
+    <updated>2019-10-26T08:08:47.972Z</updated>
+    
+    <content type="html"><![CDATA[<!DOCTYPE html><meta charset="utf-8"><html><head>    <title>点击图片去另一个网站</title></head><body><pre><code>&lt;form&gt;   &lt;input type=&quot;image&quot; src=&quot;4.jpg&quot; width=&quot;120px&quot;&gt;&lt;/form&gt;&lt;!-- 找坐标使用 --&gt; &lt;img src=&quot;4.jpg&quot; usemap=&quot;#map1&quot; width=&quot;120px&quot;&gt; &lt;map name=&quot;map1&quot;&gt;   &lt;area href=&quot;hello.html&quot; shape=&quot;rect&quot; coords=&quot;0px,0px,120px,120px&quot;  target=&quot;_blank&quot;&gt;&lt;!-- 矩形 --&gt;   &lt;/area&gt;&lt;/map&gt;</code></pre><!-- map 和img绑定使用 使用时需要给map添加id属性和name属性，让usemap的属性引用map标签的id或者name，通常id和name一样 并配合area使用    area标签定义了图像中被赋予特殊含义的区域，它主要的值有alt、cooreds、href、shape、target等定义可点击的热点    cooreds属性定义：定义相关区域的坐标说明：和shape属性搭配使用1）当shape属性为rect时，代表相关区域为矩形，则cooreds属性值为(x1,y1,x2,y2),其中x1,y1为左上角的坐标，x2,y2为右下角的坐标；2）当shape属性为circle时，代表相关区域为圆形，则cooreds属性值为(x,y,radius),其中x,y为圆形的中心坐标，radius为圆形的半径；3）当shape属性为poly时，代表相关区域为多边形，则cooreds属性值为(x1,y1,x2,y2,x3,y3......xn,yn),规定了多边形各个顶点的坐标，由于浏览器会自动闭合多边形，所以尾部坐标不必与第一个坐标相等。shape（三个值）rect（矩形）circle（圆形）poly（多边形）target ：在何处打开目标的连接（新建的  连接另一个链接）自身属性值：_blank --><img src="4.jpg" usemap="#map2" width="120px">      <map name="map2">        <area href="hello.html" shape="circle" coords="56px,51px,50px"  target="_blank"><!-- 圆 -->        </area>     </map></body></html><!-- alt 图片加载失败时备用文本内容 在超链接里嵌入图像a结合创建基于图像的超链接<a href=""><img src=""><a/>usemap 里边必须有#####！！！！！不然不会调用 -->]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;!DOCTYPE html&gt;
+&lt;meta charset=&quot;utf-8&quot;&gt;
+&lt;html&gt;
+&lt;head&gt;
+    &lt;title&gt;点击图片去另一个网站&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;lt;form&amp;gt;
+   &amp;lt;input type
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
   
   <entry>
     <title>hexo安装配置</title>
